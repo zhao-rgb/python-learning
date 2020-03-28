@@ -3,7 +3,6 @@
 
 """
 
-
 x = int(input('x = '))
 y = int(input('y = '))
 # 如果x大于y就交换x和y的值
