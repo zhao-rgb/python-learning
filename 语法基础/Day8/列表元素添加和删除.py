@@ -3,7 +3,6 @@
 
 """
 
-
 list1 = [1,3,5,7,100]
 list1.append(200)
 list1.insert(1,400)
