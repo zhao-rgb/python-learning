@@ -17,4 +17,4 @@ for news in newslist:
     temp_dict['pic_url'] = news['picUrl']
     result.append(temp_dict)
 with open(data, 'w') as f:
-    json.dump(result, f)
+    json.dump(result, f, ensure_ascii=False)
