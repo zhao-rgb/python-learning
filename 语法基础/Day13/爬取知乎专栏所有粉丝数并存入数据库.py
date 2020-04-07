@@ -10,7 +10,7 @@ import time
 
 def crawl():
     followers_data = []
-    for offset in range(2500,2540,20):
+    for offset in range(2500,2800,20):
         time.sleep(1)
         url = "https://www.zhihu.com/api/v4/columns/crossborder/followers?include=data%5B*%5D.follower_count%2Cgender%2Cis_followed%2Cis_following&offset=" + \
             str(offset)+"&limit=20"
