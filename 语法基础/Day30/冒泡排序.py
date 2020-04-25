@@ -6,7 +6,7 @@
 
 def bubble_sort(items, comp=lambda x, y: x > y):
     items = items[:]
-    for i in range(len(items)-1):
+    for i in range(len(items)):
         swapped = False
         for j in range(i, len(items)-1-i):
             if comp(items[j], items[j+1]):
