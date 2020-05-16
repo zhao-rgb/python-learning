@@ -38,7 +38,6 @@ class my_thread(threading.Thread):
     def __init__(self, name=""):
       threading.Thread.__init__(self)
       self.name = name
-
       #重写Thread类的run()方法创建线程
 
     def run(self):
